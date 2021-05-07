@@ -16,4 +16,4 @@ typedef struct {
 	info *next; // Node pointing to the next entry in the list
 }info;
 
-int user_input(); //
+int user_input();
