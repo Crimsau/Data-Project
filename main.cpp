@@ -7,6 +7,7 @@
 // list should be automatically organised by last name
 // option to encrypt data using a user input key and write to seperate file
 // option to decrypt encrypted file using key
+// Destructor at end of program to deallocate memory from list
 
 #include "header.h"
 
