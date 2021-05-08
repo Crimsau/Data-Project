@@ -7,13 +7,14 @@
 using namespace std;
 
 // Struct to hold user information and pointer to next entry in list
-typedef struct {
+struct node
+{
 	string first; // First name
 	string last; // Last name
 	string dob; // Date of birth in dd/mm/yyyy format
 	string phone; // Phone number in (###) ###-#### format
 	string email; // Email address
-	info *next; // Node pointing to the next entry in the list
-}info;
+	node *next; // Node pointing to the next entry in the list
+};
 
 int user_input();
