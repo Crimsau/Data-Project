@@ -3,6 +3,8 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <limits>
+#include <algorithm>
 
 using namespace std;
 
@@ -17,4 +19,5 @@ struct node
 	node *next; // Node pointing to the next entry in the list
 };
 
-int user_input();
+int query(); // Ask the user what they want to do
+//int user_input(); // Add new user input to list

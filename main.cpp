@@ -15,13 +15,17 @@ using namespace std;
 
 int main()
 {
-	info *head; // First node of our list
-	info *current; // Traversal node
+	//node *head; // First node of our list
+	//node *current; // Traversal node
+
+	int ans = 0;
+	ans = query();
+	cout << "Result: " << ans << endl;
 
 	// Initialize list
-	head = new info;
-	head->next = NULL;
-	current = head;
+	//head = new node;
+	//head->next = NULL;
+	//current = head;
 	
 	// If file containing info exists, read and populate list
 	// Else go to menu selection (go to user input for testing)	
